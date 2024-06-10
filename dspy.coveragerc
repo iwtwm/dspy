@@ -1,0 +1,14 @@
+[run]
+
+branch = True
+
+omit = 
+    testing/*
+    tests/*
+
+[report]
+report = html
+show_missing = True
+
+[html]
+directory = coveragereport
